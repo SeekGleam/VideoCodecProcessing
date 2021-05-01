@@ -1,0 +1,8 @@
+server:
+  port: 19002
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+logging:
+  config: classpath:log4j2-spring.xml
